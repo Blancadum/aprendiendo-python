@@ -1,0 +1,15 @@
+{
+  "Plantilla limpiar pantalla Python": {
+    "prefix": "pyinit",
+    "body": [
+      "# Importación de la libreria para usar comandos del sistema",
+      "import os",
+      "",
+      "# Limpiar la pantalla de la terminal (cls para Windows, clear para Mac/Linux)",
+      "os.system(\"clear\")",
+      "",
+      "$0"
+    ],
+    "description": "Inserta import os y la limpieza de pantalla"
+  }
+}
