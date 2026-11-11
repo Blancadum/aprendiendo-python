@@ -11,12 +11,12 @@ denegado_12 = "Lo siento, eres menor de 12 años"
 denegado_65 = "Lo siento, superas la edad permitida"
 wellcome = "Bienvenido"
 
-if edad >= 12 and edad <= 65:
+if int(edad >= 12) and int(edad <= 65):
     print({wellcome})
 else:
-    if edad < 12:
+    if int(edad < 12):
         print(denegado_12)
-    if edad > 65: 
+    if int(edad > 65): 
         print(denegado_65)
     
     

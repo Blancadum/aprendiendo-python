@@ -6,7 +6,7 @@
 caramelos = 47
 ninos = 5
 
-por_nino = caramelos // ninos
+por_nino = int(caramelos//ninos)
 sobran = caramelos % ninos
 
 print(f"Cuántos caramelos hay en total: {caramelos}")
