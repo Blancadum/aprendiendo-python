@@ -24,3 +24,5 @@ print(f"IRPF ({porcentaje_irpf}%): {irpf:.2f} €")
 print(f"Sueldo neto: {sueldo_neto:.2f} €")
             
 
+## También se puede imprimir todo seguido: 
+print(f"Tu sueldo bruto actual {sueldo_bruto:.2f} con un ipc {ipc} y un irpf del {irpf}, el sueldo bruto anual para 2027 es {sueldo_bruto:.2f}, le corresponde un sueldo neto anual para 2027 de {sueldo_neto:.2f} que corresponde a un sueldo mensual para 2027 de {sueldo_neto:.2f}€")
