@@ -1,0 +1,24 @@
+"""
+una piscina permite entrada a personas mayores de 18 años y menores de 65
+    - solicita la edad por teclado
+    - acceso permitido si está en rango de edad
+    - lo siento, eres menor de 12 años
+    - lo siento eres mayor de 65
+
+Autor: Blanca de Uña Martín
+Curso: Python Agentic - Modulo2_Condicionales
+"""
+
+edad = int(input("Introduce tu edad: "))
+permitido = "Bienvenido a la piscina"
+denegado_12 = "Lo siento, eres menor de 12 años"
+denegado_65 = "Lo siento, superas la edad permitida"
+wellcome = "Bienvenido"
+
+if int(edad >= 12) and int(edad <= 65):
+    print({wellcome})
+else:
+    if int(edad < 12):
+        print(denegado_12)
+    if int(edad > 65):
+        print(denegado_65)

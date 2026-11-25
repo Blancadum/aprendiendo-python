@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos del sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code (conservando configuraciones y snippets personalizados)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
